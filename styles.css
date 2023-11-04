@@ -1,1 +1,48 @@
 /*  your css code here. If applicable */
+*{
+	background-color:#f6f6f6;
+	display: flex;
+	justify-content: center;
+	align-items:center;
+	
+}
+#section1>img{
+	
+}
+#section1{
+	width: 450px;
+	margin-top: 70px;
+	display: inline-block;
+}
+#sec2{
+	display:flex;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	border-radius: 5px;
+	box-shadow: 0 0 10px #cc;
+	flex-direction: column;
+	align-items: left;
+	gap: 10px;
+	
+}
+#sec2>input{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	background-color: white;
+	padding: 10px;
+	width: 93%;
+}
+#sec2>button{
+	background-color: #1877f2;
+	border-radius: 5px;
+	padding: 10px 20px;
+	width: 100%;
+	border: none;
+	color: white;
+}
+#sec2>a{
+	text-decoration: none;
+	color: #1877f2;
+	
+}
