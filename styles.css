@@ -1,14 +1,16 @@
 /*  your css code here. If applicable */
-*{
+#fbpage{
 	background-color:#f6f6f6;
 	display: flex;
 	justify-content: center;
 	align-items:center;
+	padding-inline: 20px;
+	height: 100vh;
+	width: 100vw;
+	
 	
 }
-#section1>img{
-	
-}
+
 #section1{
 	width: 450px;
 	margin-top: 70px;
@@ -20,7 +22,7 @@
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;
-	box-shadow: 0 0 10px #cc;
+	box-shadow: 0 0 10px #ccc;
 	flex-direction: column;
 	align-items: left;
 	gap: 10px;
