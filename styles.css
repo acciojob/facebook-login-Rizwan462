@@ -2,19 +2,32 @@
 body{
 	background-color: #f6f6f6;
 	display: flex;
-	flex-direction: row;
+	flex-direction: ;
 	justify-content: center;
 	align-item: center;
 	height: 100vh;
 }
+section{
+	display: flex;
+	align-item: bottom;
+	justify-content: center;
+	width: 90vw;
+	height: 50vh;
+	margin: auto
+	
+}
+#left>p{
+	font-size: 12px
+}
+
 #left{
 	width: 450px;
 	margin-top: 70px;
-	display: inline-block;
+	
 }
 form{
 	display: flex;
-	width: 300px;
+	width: 35vw;
 	background-color: white;
 	padding: 20px;
 	border-radius: 5px;
