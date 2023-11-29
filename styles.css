@@ -23,6 +23,8 @@ section{
 #left{
 	width: 450px;
 	margin-top: 70px;
+	display: inline-block;
+	
 	
 }
 form{
